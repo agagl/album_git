@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album zdjęć</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row; /*column*/
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-box {
+            margin: 10px;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            font-family:'Courier New', Courier, monospace;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .image-box:hover {
+            transform: scale(1.07);
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_640.jpg" alt="">
+            <div>Zdjęcie 1</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2017/12/18/09/54/lago-di-limides-3025780_640.jpg" alt="">
+            <div>Zdjęcie 2</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2017/08/04/17/56/dolomites-2580866_640.jpg" alt="">
+            <div>Zdjęcie 3</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2020/03/30/17/15/funes-4984899_640.jpg" alt="">
+            <div>Zdjęcie 4</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2016/12/27/09/24/grand-canal-1933559_640.jpg" alt="">
+            <div>Zdjęcie 5</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2019/07/16/20/48/dolomiti-4342572_640.jpg" alt="">
+            <div>Zdjęcie 6</div>
+        </div>
+    </div>
+    
+</body>
+</html>
